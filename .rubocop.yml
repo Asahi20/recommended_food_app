@@ -14,11 +14,11 @@ AllCops:
     - "tmp/**/*"
     - "vendor/**/*"
 
-  Rails/FilePath:
+Rails/FilePath:
   Exclude:
     - "config/environments/development.rb"
 
-  Rails/Output:
+Rails/Output:
   Exclude:
     - 'db/seeds.rb'
 

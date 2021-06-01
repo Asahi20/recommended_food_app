@@ -1,0 +1,12 @@
+ja:
+  activerecord:
+    models:
+      food: 食べ物
+    attributes:
+      foods:
+        name: 名前
+        comment: コメント
+        user: ユーザー
+  time:
+    formats:
+      default: "%Y年%-m月%-d日(%a) %-H時%-M分%-S秒"

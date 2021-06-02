@@ -18,8 +18,7 @@ class FoodsController < ApplicationController
     @food = Food.find(params[:id])
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
     @food.update!(food_params)
@@ -32,6 +31,7 @@ class FoodsController < ApplicationController
   end
 
   private
+
   def food_params
     params.require(:food).permit(:name, :comment)
   end
@@ -39,5 +39,4 @@ class FoodsController < ApplicationController
   def set_food
     @food = current_user.foods.find(params[:id])
   end
-
 end

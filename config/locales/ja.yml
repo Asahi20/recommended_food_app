@@ -1,10 +1,10 @@
 ja:
   activerecord:
     models:
-      food: 食べ物
+      food: 料理
     attributes:
-      foods:
-        name: 名前
+      food:
+        name: 料理名
         comment: コメント
         user: ユーザー
   time:
